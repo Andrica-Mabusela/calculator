@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.textview{
+	width: 211px;
+	margin: 5px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+table tr .zero-btn{
+	width: 105px;
+}
+
+table tr [rowspan] .button{
+	height: 104px;
+}
+
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+body{
+	background: red;
+
+}
